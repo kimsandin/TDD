@@ -1,0 +1,38 @@
+﻿Förklara med egna ord vad "red, green, refactor" innebär och hur du använt det i kursen.
+
+"Red, green refactor" är en minnesregel som sammanfattar de steg man går
+igenom när man programmerar enligt TDD.
+
+"Write a statement you wish was true but is not -
+Add code to make it true -
+Refactor"
+
+Jag tyckte det var väldigt rörigt att sätta sig in i hur man skulle börja med TDD. 
+Efter att ha läst stora delar av kurslitteraturen och sett på videosnuttarna så 
+kan jag tycka att en väldigt stor fördel med att använda TDD är att man måste verkligen 
+få förståelse för VAD det är man ska programmera redan från början, innan man börjar.
+
+Har man detta som regel i arbetslivet - så långt det är möjligt så kan man ställa högre
+krav på att det finns en utförlig kravspecifikation över programmet man ska göra redan från start. 
+Det skulle ju göra under för alla dessa förvirrade beställare som inte riktigt själva vet vad de 
+vill ha, mer än att de vill ha en "bra" applikation. 
+Applikationen har ju mycket större chanser att bli rätt och bra från början med TDD, 
+när man väl behärskar det så att det inte bara är en stoppkloss.
+
+Där det kan vara jobbigt är väl i stora projekt som man kommer in som ny, och det inte är använt TDD alls. 
+Då kan det bli ett väldigt tungrott arbete med att få in TDD som en naturlig del. Här gäller det nog 
+att det skulle finnas flera utvecklare som behärskar TDD som kan hjälpas åt med att ändra riktning.
+
+Jag gillar tanken på att man gör det i "rätt ordning" - alltså att man först tar reda på vad varje 
+del faktiskt ska vara till för i programmet oc skriver mer eller mindre en liten kravspec för just 
+denna del i form av test. Först när man har det klart för sig går man vidare till att skriva koden 
+som man "tror" att man vill ha den, för att sedan kolla med testet om man tänkt rätt. Här får man 
+ju snabbt ett kvitto på att man gör det man ska i programmeringen.
+
+När jag väl kom till denna insikt blev det mycket enklare att angripa problemen, sen får jag väl 
+se i din bedömning om jag gjort rätt :)
+
+Jag avslutar med vad jag tyckte var en bra uppställning för att komma ihåg vilket man ska göra, och var:
+● Arrange - förutsättningar och input, förberedelser för testet
+● Act - agera på det som ska testas
+● Assert - kontrollera att vi fick det förväntade resultatet
